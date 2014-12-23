@@ -1,0 +1,133 @@
+body{
+	background-color:#000;
+	color:#ddd;
+}
+/*
+#demo {
+	width: 692px;
+	height: 70px;
+	background-color: #333;
+	padding: 8px;
+}
+*/
+#bar{
+	background-color:#91e500; 
+	color:black; 
+	position:relative; 
+	width:120px; 
+	height:30px;
+	text-align:center;
+	transition: all .5s ease-in-out;
+	}
+#bar span {
+	display: block;
+	padding-top:4px;
+}
+#bar:hover {
+	width:200px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+#logo {
+	position: relative;
+	width: 85px;
+	height: 60px;
+	background: blue;
+	border-radius:15em;
+	text-align:center;
+	transition: transform .5s ease-in-out;
+}
+#logo:hover {
+	/*transform: scale(1.5);*/
+}
+#logo span {
+	display:block;
+	padding-top:20px;
+}
+
+#hidden {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius:15em;
+	transition: transform .3s ease-in-out;
+	display:inline;
+	display:none;
+}
+#hidden:hover {
+	transform: scale(1.5);
+}
+#hidden span {
+	display:block;
+	padding-top:20px;
+	text-align: center;
+}
+#hidden2 span {
+	display:block;
+	padding-top:20px;
+	text-align: center;
+}
+#hidden3 span {
+	display:block;
+	padding-top:20px;
+	text-align: center;
+}
+#hidden2 {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius:15em;
+	transition: transform .3s ease-in-out;
+	margin-top:-80px;
+	display:none;
+}
+#hidden2:hover {
+	transform: scale(1.5);
+}
+#hidden3 {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius:15em;
+	transition: transform .3s ease-in-out;
+	margin-top:-80px;
+	display:none;
+}
+#hidden3:hover {
+	transform: scale(1.5);
+}
+#extra {
+	width:110px;
+	background:#FFFF00;
+	display:none;
+	position:relative;
+	top:185px;
+	left:230px;
+	color:#000000;
+	padding:4px;
+}
+
+#extra2 {
+	width:110px;
+	background:#0000FF;
+	display:none;
+	position:relative;
+	top:185px;
+	left:230px;
+	color:#FFFFFF;
+	padding:4px;
+}
+
+#extra3 {
+	width:110px;
+	background:#FF0000;
+	display:none;
+	position:relative;
+	top:185px;
+	left:230px;
+	color:#FFFFFF;
+	padding:4px;
